@@ -1,0 +1,10 @@
+template: |
+  Use the sources below to answer concisely in a casual coffee-chat tone.
+  If unsure, say so briefly.
+  Keep it to ~120–150 words
+
+  sources:
+  {sources}
+
+  query:
+  {query}
