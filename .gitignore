@@ -2,3 +2,8 @@
 env
 coffee_pages/
 data/
+*/docs/
+*/nltk_data/
+__pycache__/
+resume_dir
+*.pkl
