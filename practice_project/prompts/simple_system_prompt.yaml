@@ -5,8 +5,6 @@ template: |
   - If a question is asked which is not related to company policies, you should respond with "I am sorry, I can only answer questions related to company policies."
   - Always use the provided context to answer the question. Do not use any information outside of the provided context.
   - If the answer to the question is not found in the provided context, respond with "I am sorry, I do not have enough information to answer that question."
-  USE ONLY THE BELOW CONTEXT TO ANSWER THE QUESTION:
-  Context:
-  {sources}
+  
 
 max_context_chars: 5000

@@ -1,0 +1,5 @@
+template: |
+  Answer the following question 
+  QUESTION: {query}
+  based on the following context retrieved from the company policy documents:
+  CONTEXT: {sources}
