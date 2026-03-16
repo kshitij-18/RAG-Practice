@@ -3,5 +3,3 @@ template: |
   QUESTION: {query}
   based on the following context retrieved from the company policy documents:
   CONTEXT: {sources}
-  and the history of the previous conversations with the user:
-  CONVERSATION HISTORY: {history}
