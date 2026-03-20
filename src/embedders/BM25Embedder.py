@@ -1,9 +1,9 @@
 from embedders.SparseEmbedder import SparseEmbedder
 from pinecone_text.sparse.bm25_encoder import BM25Encoder
 class Bm25Embedder(SparseEmbedder):
-    def __init__(self, model: BM25Encoder):
-        super().__init__(model)
-        self._model = model
+    def __init__(self):
+        self._model = BM25Encoder()
+        super().__init__(self._model)
     
     @property
     def model(self):
